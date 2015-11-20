@@ -124,7 +124,7 @@
 <wire x1="22.86" y1="40.64" x2="22.86" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="22.86" y1="-40.64" x2="-22.86" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="-22.86" y1="-40.64" x2="-22.86" y2="40.64" width="0.254" layer="94"/>
-<pin name="GND" x="-27.94" y="-38.1" length="middle"/>
+<pin name="GND@0" x="-27.94" y="-38.1" length="middle"/>
 <pin name="VDD_1V2" x="-27.94" y="38.1" length="middle"/>
 <pin name="VDDA_3V3" x="-27.94" y="30.48" length="middle"/>
 <pin name="VDDIO" x="-27.94" y="22.86" length="middle"/>
@@ -156,7 +156,7 @@
 <pin name="LED0/NWAYEN" x="-27.94" y="-10.16" length="middle"/>
 <pin name="LED1/SPEED" x="-27.94" y="-15.24" length="middle"/>
 <pin name="RESETN" x="-27.94" y="-20.32" length="middle"/>
-<pin name="P$1" x="0" y="-45.72" length="middle" rot="R90"/>
+<pin name="GND@1" x="0" y="-45.72" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -169,13 +169,13 @@
 <connects>
 <connect gate="G$1" pin="COL/CONFIG0" pad="P$28"/>
 <connect gate="G$1" pin="CRS/CONFIG1" pad="P$29"/>
-<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="GND@0" pad="P$1"/>
+<connect gate="G$1" pin="GND@1" pad="P$33"/>
 <connect gate="G$1" pin="INTERP/NAND_TREEN" pad="P$21"/>
 <connect gate="G$1" pin="LED0/NWAYEN" pad="P$30"/>
 <connect gate="G$1" pin="LED1/SPEED" pad="P$31"/>
 <connect gate="G$1" pin="MDCLK" pad="P$12"/>
 <connect gate="G$1" pin="MDIO" pad="P$11"/>
-<connect gate="G$1" pin="P$1" pad="P$33"/>
 <connect gate="G$1" pin="RESETN" pad="P$32"/>
 <connect gate="G$1" pin="REXT" pad="P$10"/>
 <connect gate="G$1" pin="RX+" pad="P$5"/>
