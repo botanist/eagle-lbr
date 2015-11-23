@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,43 +58,43 @@
 <library>
 <packages>
 <package name="TQFN44-32">
-<smd name="P29" x="-0.2" y="1.9" dx="0.2" dy="0.6" layer="1"/>
+<smd name="P29" x="-0.2" y="1.9" dx="0.18" dy="0.5" layer="1"/>
 <wire x1="-2" y1="2" x2="2" y2="2" width="0.1524" layer="21"/>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.1524" layer="21"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1524" layer="21"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1524" layer="21"/>
-<smd name="P30" x="-0.6" y="1.9" dx="0.2" dy="0.6" layer="1"/>
-<smd name="P31" x="-1" y="1.9" dx="0.2" dy="0.6" layer="1"/>
-<smd name="P32" x="-1.4" y="1.9" dx="0.2" dy="0.6" layer="1"/>
-<smd name="P28" x="0.2" y="1.9" dx="0.2" dy="0.6" layer="1"/>
-<smd name="P27" x="0.6" y="1.9" dx="0.2" dy="0.6" layer="1"/>
-<smd name="P26" x="1" y="1.9" dx="0.2" dy="0.6" layer="1"/>
-<smd name="P25" x="1.4" y="1.9" dx="0.2" dy="0.6" layer="1"/>
-<smd name="P21" x="1.9" y="0.2" dx="0.2" dy="0.6" layer="1" rot="R270"/>
-<smd name="P22" x="1.9" y="0.6" dx="0.2" dy="0.6" layer="1" rot="R270"/>
-<smd name="P23" x="1.9" y="1" dx="0.2" dy="0.6" layer="1" rot="R270"/>
-<smd name="P24" x="1.9" y="1.4" dx="0.2" dy="0.6" layer="1" rot="R270"/>
-<smd name="P20" x="1.9" y="-0.2" dx="0.2" dy="0.6" layer="1" rot="R270"/>
-<smd name="P19" x="1.9" y="-0.6" dx="0.2" dy="0.6" layer="1" rot="R270"/>
-<smd name="P18" x="1.9" y="-1" dx="0.2" dy="0.6" layer="1" rot="R270"/>
-<smd name="P17" x="1.9" y="-1.4" dx="0.2" dy="0.6" layer="1" rot="R270"/>
+<smd name="P30" x="-0.6" y="1.9" dx="0.18" dy="0.5" layer="1"/>
+<smd name="P31" x="-1" y="1.9" dx="0.18" dy="0.5" layer="1"/>
+<smd name="P32" x="-1.4" y="1.9" dx="0.18" dy="0.5" layer="1"/>
+<smd name="P28" x="0.2" y="1.9" dx="0.18" dy="0.5" layer="1"/>
+<smd name="P27" x="0.6" y="1.9" dx="0.18" dy="0.5" layer="1"/>
+<smd name="P26" x="1" y="1.9" dx="0.18" dy="0.5" layer="1"/>
+<smd name="P25" x="1.4" y="1.9" dx="0.18" dy="0.5" layer="1"/>
+<smd name="P21" x="1.9" y="0.2" dx="0.18" dy="0.5" layer="1" rot="R270"/>
+<smd name="P22" x="1.9" y="0.6" dx="0.18" dy="0.5" layer="1" rot="R270"/>
+<smd name="P23" x="1.9" y="1" dx="0.18" dy="0.5" layer="1" rot="R270"/>
+<smd name="P24" x="1.9" y="1.4" dx="0.18" dy="0.5" layer="1" rot="R270"/>
+<smd name="P20" x="1.9" y="-0.2" dx="0.18" dy="0.5" layer="1" rot="R270"/>
+<smd name="P19" x="1.9" y="-0.6" dx="0.18" dy="0.5" layer="1" rot="R270"/>
+<smd name="P18" x="1.9" y="-1" dx="0.18" dy="0.5" layer="1" rot="R270"/>
+<smd name="P17" x="1.9" y="-1.4" dx="0.18" dy="0.5" layer="1" rot="R270"/>
 <smd name="P33" x="0" y="0" dx="2.8" dy="2.8" layer="1"/>
-<smd name="P5" x="-1.9" y="-0.2" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="P6" x="-1.9" y="-0.6" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="P7" x="-1.9" y="-1" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="P8" x="-1.9" y="-1.4" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="P4" x="-1.9" y="0.2" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="P3" x="-1.9" y="0.6" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="P2" x="-1.9" y="1" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="P1" x="-1.9" y="1.4" dx="0.2" dy="0.6" layer="1" rot="R90"/>
-<smd name="P13" x="0.2" y="-1.9" dx="0.2" dy="0.6" layer="1" rot="R180"/>
-<smd name="P14" x="0.6" y="-1.9" dx="0.2" dy="0.6" layer="1" rot="R180"/>
-<smd name="P15" x="1" y="-1.9" dx="0.2" dy="0.6" layer="1" rot="R180"/>
-<smd name="P16" x="1.4" y="-1.9" dx="0.2" dy="0.6" layer="1" rot="R180"/>
-<smd name="P12" x="-0.2" y="-1.9" dx="0.2" dy="0.6" layer="1" rot="R180"/>
-<smd name="P11" x="-0.6" y="-1.9" dx="0.2" dy="0.6" layer="1" rot="R180"/>
-<smd name="P10" x="-1" y="-1.9" dx="0.2" dy="0.6" layer="1" rot="R180"/>
-<smd name="P9" x="-1.4" y="-1.9" dx="0.2" dy="0.6" layer="1" rot="R180"/>
+<smd name="P5" x="-1.9" y="-0.2" dx="0.18" dy="0.5" layer="1" rot="R90"/>
+<smd name="P6" x="-1.9" y="-0.6" dx="0.18" dy="0.5" layer="1" rot="R90"/>
+<smd name="P7" x="-1.9" y="-1" dx="0.18" dy="0.5" layer="1" rot="R90"/>
+<smd name="P8" x="-1.9" y="-1.4" dx="0.18" dy="0.5" layer="1" rot="R90"/>
+<smd name="P4" x="-1.9" y="0.2" dx="0.18" dy="0.5" layer="1" rot="R90"/>
+<smd name="P3" x="-1.9" y="0.6" dx="0.18" dy="0.5" layer="1" rot="R90"/>
+<smd name="P2" x="-1.9" y="1" dx="0.18" dy="0.5" layer="1" rot="R90"/>
+<smd name="P1" x="-1.9" y="1.4" dx="0.18" dy="0.5" layer="1" rot="R90"/>
+<smd name="P13" x="0.2" y="-1.9" dx="0.18" dy="0.5" layer="1" rot="R180"/>
+<smd name="P14" x="0.6" y="-1.9" dx="0.18" dy="0.5" layer="1" rot="R180"/>
+<smd name="P15" x="1" y="-1.9" dx="0.18" dy="0.5" layer="1" rot="R180"/>
+<smd name="P16" x="1.4" y="-1.9" dx="0.18" dy="0.5" layer="1" rot="R180"/>
+<smd name="P12" x="-0.2" y="-1.9" dx="0.18" dy="0.5" layer="1" rot="R180"/>
+<smd name="P11" x="-0.6" y="-1.9" dx="0.18" dy="0.5" layer="1" rot="R180"/>
+<smd name="P10" x="-1" y="-1.9" dx="0.18" dy="0.5" layer="1" rot="R180"/>
+<smd name="P9" x="-1.4" y="-1.9" dx="0.18" dy="0.5" layer="1" rot="R180"/>
 <circle x="-1.27" y="1.27" radius="0.1524" width="0.1524" layer="21"/>
 <text x="0" y="2.75" size="0.6" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="-2.75" size="0.6" layer="27" align="center">&gt;VALUE</text>
