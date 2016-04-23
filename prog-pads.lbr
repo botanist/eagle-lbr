@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="4" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -62,23 +62,23 @@
 <library>
 <packages>
 <package name="PROG_PADS">
-<smd name="P$1" x="-4" y="1" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
-<smd name="P$3" x="-2" y="1" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
-<smd name="P$5" x="0" y="1" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
-<smd name="P$6" x="0" y="-1" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
-<smd name="P$4" x="-2" y="-1" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
-<smd name="P$2" x="-4" y="-1" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
-<wire x1="-5" y1="2" x2="5" y2="2" width="0.127" layer="21"/>
-<wire x1="5" y1="2" x2="5" y2="-2" width="0.127" layer="21"/>
-<wire x1="5" y1="-2" x2="-5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-5" y1="-2" x2="-5" y2="2" width="0.127" layer="21"/>
-<text x="-5.25" y="1" size="1.27" layer="51" align="center-right">1</text>
-<text x="5.25" y="-1" size="1.27" layer="51" align="center-left">10</text>
-<text x="-5" y="2.25" size="1.27" layer="25">&gt;NAME</text>
-<smd name="P$7" x="2" y="1" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
-<smd name="P$9" x="4" y="1" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
-<smd name="P$8" x="2" y="-1" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
-<smd name="P$10" x="4" y="-1" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
+<smd name="P$1" x="-5.08" y="1.27" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
+<smd name="P$3" x="-2.54" y="1.27" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
+<smd name="P$5" x="0" y="1.27" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
+<smd name="P$6" x="0" y="-1.27" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
+<smd name="P$4" x="-2.54" y="-1.27" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
+<smd name="P$2" x="-5.08" y="-1.27" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.127" layer="21"/>
+<text x="-6.604" y="1.27" size="1.27" layer="51" align="center-right">1</text>
+<text x="6.604" y="-1.27" size="1.27" layer="51" align="center-left">10</text>
+<text x="-6.35" y="2.794" size="1.27" layer="25">&gt;NAME</text>
+<smd name="P$7" x="2.54" y="1.27" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
+<smd name="P$9" x="5.08" y="1.27" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
+<smd name="P$8" x="2.54" y="-1.27" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
+<smd name="P$10" x="5.08" y="-1.27" dx="1.5" dy="1.5" layer="1" roundness="50" rot="R90"/>
 </package>
 </packages>
 <symbols>
