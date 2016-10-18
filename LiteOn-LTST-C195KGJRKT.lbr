@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -120,18 +120,18 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LTST-C195KGJRKT">
+<deviceset name="LTST-C195KGJRKT" prefix="LD">
 <gates>
-<gate name="G$1" symbol="LED" x="-12.7" y="0"/>
-<gate name="G$2" symbol="LED" x="10.16" y="0"/>
+<gate name="GREEN" symbol="LED" x="-12.7" y="0"/>
+<gate name="RED" symbol="LED" x="10.16" y="0"/>
 </gates>
 <devices>
 <device name="" package="LED-SMT">
 <connects>
-<connect gate="G$1" pin="A" pad="P$1"/>
-<connect gate="G$1" pin="C" pad="P$3"/>
-<connect gate="G$2" pin="A" pad="P$2"/>
-<connect gate="G$2" pin="C" pad="P$4"/>
+<connect gate="GREEN" pin="A" pad="P$1"/>
+<connect gate="GREEN" pin="C" pad="P$3"/>
+<connect gate="RED" pin="A" pad="P$2"/>
+<connect gate="RED" pin="C" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
