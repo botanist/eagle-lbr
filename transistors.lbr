@@ -11,6 +11,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -169,31 +179,10 @@ Philips Semiconductors, SOT363.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SSM6N7002KFU" prefix="Q">
+<deviceset name="DMP2200UDW" prefix="Q">
 <gates>
-<gate name="A" symbol="N-MOS" x="0" y="10.16"/>
-<gate name="B" symbol="N-MOS" x="0" y="-10.16"/>
-</gates>
-<devices>
-<device name="" package="SOT363">
-<connects>
-<connect gate="A" pin="D" pad="3"/>
-<connect gate="A" pin="G" pad="2"/>
-<connect gate="A" pin="S" pad="1"/>
-<connect gate="B" pin="D" pad="6"/>
-<connect gate="B" pin="G" pad="5"/>
-<connect gate="B" pin="S" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SSM6P15FE" prefix="Q">
-<gates>
-<gate name="A" symbol="P-MOS" x="0" y="10.16"/>
-<gate name="B" symbol="P-MOS" x="0" y="-10.16"/>
+<gate name="A" symbol="P-MOS" x="-7.62" y="0"/>
+<gate name="B" symbol="P-MOS" x="7.62" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT363">
@@ -204,6 +193,27 @@ Philips Semiconductors, SOT363.pdf</description>
 <connect gate="B" pin="D" pad="6"/>
 <connect gate="B" pin="G" pad="2"/>
 <connect gate="B" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSD840N" prefix="Q">
+<gates>
+<gate name="A" symbol="N-MOS" x="-7.62" y="0"/>
+<gate name="B" symbol="N-MOS" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT363">
+<connects>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="3"/>
+<connect gate="B" pin="G" pad="5"/>
+<connect gate="B" pin="S" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
